@@ -15,7 +15,7 @@ gcc -I. (the rest of your parameters and flags)
 ## Use
 **NOTE: Calling `lexer` using an POSIX uncompatible regex pattern may result in a segmentation fault.**
 ### Calling the function
-The main functionality of the library can be accessed using the 'lexer' function whose signature is shown below:
+The main functionality of the library can be accessed using the `lexer` function whose signature is shown below:
 ```c
 results_t lexer(char * source, unsigned int npatterns, ...);
 ```
@@ -28,7 +28,7 @@ lexer("numchars \"hello, world!\" == 7 + 5",4,"IDENTIFIER","[a-zA-Z]+","STRING",
 ...
 ```
 ### Reading your results
-The `lexer` function returns an instance of the `results_t` struct.The fields of said struct and `token_t' struct which is used within the results can be seen below:
+The `lexer` function returns an instance of the `results_t` struct.The fields of said struct and `token_t` struct which is used within the results can be seen below:
 ```c
 typedef struct {
 	token_t * toks;
@@ -53,7 +53,7 @@ for(int i = 0 ; i < res.ntoks ; i++ ){
 }
 ...
 ```
-The output of this will the be:
+The above code's output will then be like this:
 ```
 6 TOKENS RETURNED
 TYPE : IDENTIFIER | TEXT : numchars 
