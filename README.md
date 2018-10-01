@@ -6,7 +6,7 @@ Download the single header file using the following commmand, in the directory o
 ```
 wget -O lexer.h https://github.com/lorcajheeney/regex-lexer/blob/master/lexer.h?raw=true
 ```
-Add `#include<lexer.h>` to the top of your source files, **NOTE: No dependencies are needed to the library only the standard library's `stdlib`, `stdbool`, `stdarg`, `string` and `regex` header files are included.**
+Add `#include<lexer.h>` to the top of your source files, **NOTE: No dependencies are needed for the library, only the standard library's `stdlib`, `stdbool`, `stdarg`, `string` and `regex` header files are included by the lexer.**
 
 When compiling your project, ensure the compiler knows to search the current directory for header files, shown below for GCC:
 ```
