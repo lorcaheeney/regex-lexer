@@ -1,6 +1,6 @@
 # regex-lexer
 ## Overview
-A regular-expressions based lexer written in C,easily included with any project via a single header file with no external dependicies. Aiming to make interpreters and compilers easier to write by handling the boring stuff for you.
+A regular-expressions based lexer written in C, easily included with any project via a single header file with no external dependicies. Aiming to make interpreters and compilers easier to write by handling the boring stuff for you.
 ## Linking
 Download the single header file using the following commmand, in the directory of your source files:
 ```
