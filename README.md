@@ -63,5 +63,5 @@ TYPE : NUM | TEXT : 7
 TYPE : OPERATOR | TEXT : + 
 TYPE : NUM | TEXT : 5
 ```
-## TODO
+## TODO:
 Use Perl-Compatible-Regular-Expressions(PCRE) to allow a wider variety of regex constructs to be used to further enhance the capabilites of the lexer.
