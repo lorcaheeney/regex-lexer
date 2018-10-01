@@ -40,7 +40,7 @@ typedef struct {
 // -- PROTOTYPES -- 
 results_t lexer(char * source, unsigned int npatterns, ...);
 static void tokenize(char * source); 
-static void addtoken(char * tokenname, char * tokenpattern);
+static void addtoken(char * tokenpattern, char * tokenname);
 static void releasetoken(const char * typename);
 static void incbuffer(const char c);
 static void decbuffer(void);
